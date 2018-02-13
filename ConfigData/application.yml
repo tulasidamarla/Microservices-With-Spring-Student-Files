@@ -12,20 +12,24 @@ words: I,You,He,She,It
 
 ---
 spring:
-  profiles: verb-service
+  profiles:
+    active: verb-service
 words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: article-service
+  profiles:
+    active: article-service
 words: a,the
 
 ---
 spring:
-  profiles: adjective-service
+  profiles:
+    active: adjective-service
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun-service
+  profiles:
+  active: noun-service
 words: boat,book,vote,seat,backpack,partition,groundhog
