@@ -6,7 +6,8 @@ eureka:
 
 ---
 spring:
-  profiles: subject-service
+  profiles:
+    active: subject-service
 words: I,You,He,She,It
 
 ---
