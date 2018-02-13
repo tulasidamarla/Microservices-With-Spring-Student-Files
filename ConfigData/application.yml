@@ -5,26 +5,26 @@ eureka:
       { defaultZone: "http://localhost:8010/eureka/" }
 
 ---
-spring
+spring:
   profiles: subject-service 
 words: I,You,He,She,It
 
 ---
-spring
+spring:
   profiles: verb-service
 words: ran,knew,had,saw,bought
 
 ---
-spring
+spring:
   profiles: article-service
 words: a,the
 
 ---
-spring
+spring:
   profiles: adjective-service
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
-spring
+spring:
   profiles: noun-service
 words: boat,book,vote,seat,backpack,partition,groundhog
